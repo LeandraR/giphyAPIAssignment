@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var buttons = ["Parks and Rec", "New Girl", "Downton Abbey", "The Office", "The Expanse"];
+    var buttons = ["Parks and Rec", "New Girl", "Downton Abbey", "Community", "The Expanse"];
 
 //search on button click function
     function search (){

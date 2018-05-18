@@ -17,11 +17,14 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
           overflow: hidden;
     }
 
+
 body {
-    background-image:url(what-the-hex.png);
+    background:linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url(julian-o-hayon-265569-unsplash.jpg);
     font-family:arial;
     font-weight:bold;
 }
+
 .wrapper {
     max-width:1200px;
     margin:0 auto;
@@ -35,6 +38,7 @@ body {
     display:flex;
     flex-direction:row;
     margin:0 auto;
+    flex-wrap:wrap;
 }
 
 form {
@@ -46,6 +50,11 @@ button,#addShow{
     padding:1em;
     margin:1em;
     font-weight:bold;
+    border-radius:5px;
+}
+
+button:hover, #addShow:hover {
+    border:1px solid white;
 }
 
 .item {
@@ -69,5 +78,9 @@ p {
     flex-direction:column;
     flex-wrap:wrap;
     align-content:flex-start;
+}
+
+#addShow {
+    background-color:aquamarine;
 }
 
